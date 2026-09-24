@@ -244,7 +244,7 @@ def introduce_dirty_data(df):
 
         df.loc[index, "booking_date"] = random.choice([
             original_date.strftime("%d/%m/%Y"),
-            original_date.strftime("%m-%d-%Y"),
+            original_date.strftime("%d-%b-%Y"),
             original_date.strftime("%d-%m-%Y"),
             original_date.strftime("%Y/%m/%d"),
         ])
